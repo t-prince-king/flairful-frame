@@ -5,49 +5,84 @@ const timelineEvents = [
   {
     date: "1977",
     title: "O.J. and Nicole Meet",
-    description: "O.J. Simpson meets Nicole Brown while she's working as a waitress in Los Angeles. They begin dating despite O.J. being married.",
+    description: "O.J. Simpson meets Nicole Brown while she's working as a waitress at a nightclub in Los Angeles. They begin dating even though O.J. is still married to Marguerite Whitley. Their relationship would span nearly two decades.",
     icon: Users,
     category: "relationship"
+  },
+  {
+    date: "1979",
+    title: "O.J.'s First Divorce",
+    description: "O.J. divorces his first wife Marguerite Whitley, paving the way for his relationship with Nicole to become more serious.",
+    icon: Scale,
+    category: "legal"
   },
   {
     date: "1985",
     title: "Marriage",
-    description: "O.J. and Nicole marry after his divorce from Marguerite Whitley. They appear to be a glamorous celebrity couple.",
+    description: "O.J. and Nicole marry after his divorce. They appear to be a glamorous celebrity couple, living a wealthy lifestyle in Brentwood. Nicole becomes part of Hollywood's elite social circle.",
     icon: Users,
     category: "relationship"
   },
   {
-    date: "1989-1992",
-    title: "Domestic Violence Reports",
-    description: "Multiple incidents of domestic violence are reported. Nicole calls police several times due to O.J.'s abusive behavior.",
+    date: "1988-1992",
+    title: "Pattern of Domestic Violence",
+    description: "Multiple documented incidents of domestic violence occur. Nicole calls police several times, reporting O.J.'s controlling and jealous behavior. Friends witness bruises and aggressive confrontations.",
     icon: AlertTriangle,
     category: "violence"
   },
   {
     date: "1992",
     title: "Divorce Filed",
-    description: "Nicole files for divorce after 7 years of marriage, citing irreconcilable differences and seeking restraining order.",
+    description: "Nicole files for divorce after 7 years of marriage, citing irreconcilable differences. She seeks a restraining order due to O.J.'s continued abusive behavior and threats.",
     icon: Scale,
     category: "legal"
   },
   {
+    date: "1992-1994",
+    title: "Post-Divorce Period",
+    description: "Nicole begins dating other men, including Denis Pape. O.J. reportedly becomes increasingly jealous and continues to harass Nicole despite their divorce.",
+    icon: Users,
+    category: "relationship"
+  },
+  {
     date: "June 12, 1994",
     title: "The Murders",
-    description: "Nicole Brown Simpson and Ronald Goldman are found murdered outside Nicole's Brentwood home. Both victims suffered multiple stab wounds.",
+    description: "Nicole Brown Simpson and Ronald Goldman are found brutally murdered outside Nicole's Brentwood condo. Both victims suffered multiple fatal stab wounds in what appeared to be a crime of passion.",
+    icon: AlertTriangle,
+    category: "crime"
+  },
+  {
+    date: "June 13-16, 1994",
+    title: "Investigation Begins",
+    description: "LAPD discovers blood evidence at O.J.'s Rockingham estate. A trail of blood leads from his white Bronco to his front door. O.J. becomes the prime suspect.",
     icon: AlertTriangle,
     category: "crime"
   },
   {
     date: "June 17, 1994",
-    title: "The Chase",
-    description: "O.J. Simpson leads police on a low-speed chase in a white Ford Bronco, watched by 95 million viewers on live television.",
+    title: "The Bronco Chase",
+    description: "O.J. Simpson leads police on a dramatic low-speed chase in a white Ford Bronco driven by Al Cowlings. 95 million viewers watch the surreal chase live on television.",
     icon: Calendar,
+    category: "legal"
+  },
+  {
+    date: "January 1995",
+    title: "Trial Begins",
+    description: "The 'Trial of the Century' begins with Johnnie Cochran leading O.J.'s 'Dream Team' defense against prosecutors Marcia Clark and Christopher Darden.",
+    icon: Scale,
+    category: "legal"
+  },
+  {
+    date: "June 1995",
+    title: "Glove Evidence",
+    description: "The infamous glove demonstration occurs when O.J. tries on the bloody gloves in court. Cochran's phrase 'If it doesn't fit, you must acquit' becomes legendary.",
+    icon: Scale,
     category: "legal"
   },
   {
     date: "October 3, 1995",
     title: "The Verdict",
-    description: "After deliberating for less than 4 hours, the jury finds O.J. Simpson not guilty of all charges in the criminal trial.",
+    description: "After deliberating for less than 4 hours, the predominantly African American jury finds O.J. Simpson not guilty of all criminal charges, dividing America along racial lines.",
     icon: Scale,
     category: "verdict"
   }
